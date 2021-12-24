@@ -1,0 +1,98 @@
+.wf-container {
+  width: 600px;
+  height: 320px;
+  margin-top: 50px;
+  display: flex;
+
+  background-color: #0d1117;
+  border-radius: 20px;
+}
+.box {
+  width: 135px;
+  height: 110px;
+  background-color: rgba(146, 146, 146, 0.3);
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-top: 10px;
+  box-shadow: 2px 5px rgba(126, 126, 126, 0.4);
+}
+.wf-left {
+  display: flex;
+}
+.img {
+  height: 320px;
+  width: 180px;
+  border-radius: 20px;
+
+  background: url("../assets/img/cold-bg.jpg");
+  background-size: cover;
+  transition: 0.4 ease-out;
+
+  position: relative;
+}
+.img.warm {
+  background: url("../assets/img/warm-bg.jpg");
+}
+
+.information {
+  height: 320px;
+  width: 180px;
+
+  padding: 10px 20px;
+  position: absolute;
+
+  color: rgb(255, 255, 255);
+}
+
+.day {
+  font-weight: bold;
+}
+
+.date-month {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.location {
+  display: flex;
+  font-size: 20px;
+  font-weight: 100;
+}
+.location i {
+  margin-top: 4px;
+}
+.location div {
+  margin-left: 8px;
+}
+
+.temp {
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+.description {
+  font-weight: 100;
+}
+
+.wf-right {
+  width: 100%;
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 15px 20px 10px 10px;
+}
+.wf-right-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid rgb(175, 175, 175);
+
+  text-transform: capitalize;
+}
+.wish {
+  margin-top: 5px;
+  font-family: "Oooh Baby", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
